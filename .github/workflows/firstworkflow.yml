@@ -2,7 +2,11 @@ name: First Workflow
 
 #run-name: ${{github.actor}}
 
-on: push
+on:
+  #push:
+   # branches: [main]
+  pull_request:
+    branches: [main]
  
 jobs:
   linux-os:
