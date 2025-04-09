@@ -11,7 +11,7 @@ job:
      - name: Checkout
        uses: actions /checkout@v4.2.2
      - run: echo " ubuntu -latest"
-job:
+  job:
   windows-os:
     runs-on: windows-latest
     steps:
