@@ -2,9 +2,10 @@ name: First Workflow
 
 #run-name: ${{github.actor}}
 
-on:
-  #push:
-   # branches: [main]
+on: 
+  workflow_dispatch:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
  
