@@ -12,7 +12,7 @@ job:
        uses: actions /checkout@v4.2.2
      - run: echo " ubuntu -latest"
   job:
-  windows-os:
+   windows-os:
     runs-on: windows-latest
     steps:
     # $GITHUB_WORKSPACE
